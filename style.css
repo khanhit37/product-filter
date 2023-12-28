@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  height: 100vh;
+  background: #dadada;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background: white;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  text-align: center;
+  padding: 10px 20px;
+  overflow: scroll;
+}
+
+.search {
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.search input {
+  width: 100%;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+
+.search i {
+  color: #333;
+  padding: 5px;
+}
+
+h1 {
+  margin: 20px;
+  font-weight: 600;
+}
+
+.product {
+  display: flex;
+  height: 100px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.product img {
+  width: 100px;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+.product .info {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.product .name,
+.product .price {
+  width: 100%;
+  font-size: 15px;
+
+  text-align: center;
+}
+
+.product .name {
+  font-weight: bold;
+}
+
+.product:hover {
+  background: #dadada;
+}
+
+.hide {
+  display: none;
+}
